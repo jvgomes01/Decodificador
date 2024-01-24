@@ -1,4 +1,5 @@
 Projeto Decodificador
+
 Este é um projeto simples de decodificação de texto, onde você pode criptografar e descriptografar mensagens usando substituições de letras. As letras são substituídas de acordo com a seguinte lógica:
 
 A letra "e" é convertida para "enter"
