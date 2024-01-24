@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="img-class" src="./imgs/Logo.png" alt="">
+    <main class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1"></textarea>
+                    <label for="floatingTextarea">Digite um texto que você deseja criptografar ou
+                        descriptografar</label>
+                    <p> <img src="./imgs/bi_exclamation-circle-fill.svg" alt=""> Apenas letras minusculas sem acento</p>
+                    <div class="d-flex justify-content-center">
+
+                        <button onclick="criptografar()" type="button" id="criptografar"
+                            class="btn btn-primary btn-lg me-3 mt-3">Criptografar</button>
+                        <button onclick="descriptografar()" type="button" id="descriptografar"
+                            class="btn btn-primary btn-lg mt-3">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" id="myDIV">
+                <div id="card1">
+                    <img id="img-teste" class="img-fluid" src="./imgs/High quality products 1 1.svg" alt="">
+                    <p id="mensagem-texto">Nenhuma mensagem encontrada</p>
+                    <label id="label-text" for="floatingTextarea">Digite um texto que você deseja criptografar ou
+                        descriptografar.</label>
+                </div>
+
+            </div>
+            <div class="col-md-4" id="mydiv2" style="display: none;">
+                <div id="card2">
+                    <textarea name="" id="mensagem-texto1" cols="30" rows="10"></textarea>
+                </div>
+                <button onclick="copiarTexto()" type="button" id="copiarTexto"
+                    class="btn btn-primary btn me-3 mt-3">COPIAR</button>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

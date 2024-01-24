@@ -1,0 +1,90 @@
+.img-class{
+    padding-top: 15px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#floatingTextarea1 {
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+    text-transform: lowercase;
+}
+
+#card1{
+    align-items: center;
+    border-radius: 15px; 
+    background-color: #ffffff; 
+    padding: 20px;
+    padding-bottom: 130px; 
+}
+
+#card2{
+    position: relative;
+    height: 700px;
+    align-items: center;
+    border-radius: 15px; 
+    background-color: #ffffff; 
+    padding: 20px;
+    padding-bottom: 130px; 
+    overflow: auto;
+}
+
+#card2 textarea {
+    word-wrap: break-word;
+}
+
+#img-teste{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#mensagem-texto{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#mensagem-texto1{
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none; /* Impede que o usuário redimensione o textarea */
+    overflow: hidden; /* Garante que o conteúdo não transborde caso haja muito texto */
+}
+    
+
+#label-text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#criptografar{
+    padding: 15px;
+    font-size: 20px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #0A3871;
+    
+}
+
+#descriptografar{
+    padding: 15px;
+    font-size: 20px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+#copiarTexto {
+    margin-left: 100px;
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+    background-color: #0A3871;
+    border-radius: 10px;
+}
